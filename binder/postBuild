@@ -1,0 +1,8 @@
+#!/bin/bash
+git clone https://github.com/pyiron/pyiron_contrib.git
+git clone https://github.com/pyiron/pyiron-resources.git resources
+cd pyiron_contrib
+git checkout mtp
+pip install --no-deps .
+cd ../resources
+git checkout mtp

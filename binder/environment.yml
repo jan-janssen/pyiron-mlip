@@ -1,0 +1,10 @@
+channels:
+- conda-forge
+dependencies:
+- python
+- mlip
+- pyiron =0.4.0
+- pyiron_atomistics =0.2.3
+- pyiron_base =0.1.47
+- lammps
+- vim
